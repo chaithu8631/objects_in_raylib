@@ -24,13 +24,20 @@ const borderColor = {
     b : 155,
     a : 255,
 };
+//aqua blue color
+const bgColor = {
+    r : 0,
+    g : 200,
+    b : 200,
+    a : 127,
+};
 
 r.InitWindow(window.width,window.height,window.title);
 r.SetTargetFPS(window.FPS);
 r.SetTraceLogLevel(r.LOG_NONE);
 while(!r.WindowShouldClose()) {
     r.BeginDrawing();
-    r.ClearBackground(r.BLACK);
+    r.ClearBackground(bgColor);
 
     r.DrawRectangleRec(recData,recColor);
     r.DrawRectangleLines(recData.x,recData.y,recData.width,recData.height,borderColor);
