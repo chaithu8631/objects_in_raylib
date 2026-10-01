@@ -16,54 +16,33 @@ const yellow = {
     r : 255,
     g : 232,
     b : 92,
-    a : 255,
+    a : 100,
 };
 const orange = {
     r : 254,
     g : 159,
     b : 54,
-    a : 255,
+    a : 100,
 };
 const red = {
     r : 206,
     g : 77,
     b : 42,
-    a : 255,
+    a : 100,
 };
 const magenta = {
     r : 238,
     g : 93,
     b : 108,
-    a : 255,
+    a : 100,
 };
 const purple = {
     r : 106,
     g : 13,
     b : 131,
-    a : 255,
-};
-
-//sun set
-const color1 = {
-    r : 250,
-    g : 214,
-    b : 165,
-    a : 255,
-};
-//sky blue
-const color2 = {
-    r : 255,
-    g : 94,
-    b : 19,
     a : 100,
 };
-//wine red
-const color3 = {
-    r : 114,
-    g : 47,
-    b : 55,
-    a : 50,
-};
+
 
 const bgColor = {
     r : 30,
@@ -79,7 +58,6 @@ while(!r.WindowShouldClose()) {
     r.BeginDrawing();
     r.ClearBackground(bgColor);
 
-    r.DrawCircleV(target, 175, color1);
     r.DrawCircleV(target, 150, purple);
     r.DrawCircleV(target, 125, magenta);
     r.DrawCircleV(target, 100, red);
