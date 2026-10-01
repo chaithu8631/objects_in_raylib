@@ -41,9 +41,9 @@ while(!r.WindowShouldClose()) {
     r.BeginDrawing();
     r.ClearBackground(bgColor);
 
-    r.DrawRectangleRounded(buttonData, 0.8, 10, buttonColor);
-    r.DrawRectangleRoundedLines(buttonData, 0.8, 10, 3,borderColor);
-    
+    r.DrawRectangleRounded(buttonData, 0.3, 10, buttonColor);
+    r.DrawRectangleRoundedLines(buttonData, 0.3, 10, 3,borderColor);
+
     r.EndDrawing();
 }
 r.CloseWindow();
