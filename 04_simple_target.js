@@ -12,6 +12,37 @@ const target = {
     y : 250,
 }
 
+const yellow = {
+    r : 255,
+    g : 232,
+    b : 92,
+    a : 255,
+};
+const orange = {
+    r : 254,
+    g : 159,
+    b : 54,
+    a : 255,
+};
+const red = {
+    r : 206,
+    g : 77,
+    b : 42,
+    a : 255,
+};
+const magenta = {
+    r : 238,
+    g : 93,
+    b : 108,
+    a : 255,
+};
+const purple = {
+    r : 106,
+    g : 13,
+    b : 131,
+    a : 255,
+};
+
 //sun set
 const color1 = {
     r : 250,
@@ -31,7 +62,7 @@ const color3 = {
     r : 114,
     g : 47,
     b : 55,
-    a : 100,
+    a : 50,
 };
 
 const bgColor = {
@@ -49,11 +80,11 @@ while(!r.WindowShouldClose()) {
     r.ClearBackground(bgColor);
 
     r.DrawCircleV(target, 175, color1);
-    r.DrawCircleV(target, 150, color2);
-    r.DrawCircleV(target, 125, color3);
-    r.DrawCircleV(target, 100, color1);
-    r.DrawCircleV(target, 75, color2);
-    r.DrawCircleV(target, 50, color3);
+    r.DrawCircleV(target, 150, purple);
+    r.DrawCircleV(target, 125, magenta);
+    r.DrawCircleV(target, 100, red);
+    r.DrawCircleV(target, 75, orange);
+    r.DrawCircleV(target, 50, yellow);
 
     r.EndDrawing();
 }
