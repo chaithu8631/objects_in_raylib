@@ -42,7 +42,7 @@ while(!r.WindowShouldClose()) {
     r.ClearBackground(bgColor);
 
     r.DrawRectangleRounded(buttonData, 0.3, 10, buttonColor);
-    r.DrawRectangleRoundedLines(buttonData, 0.3, 10, 3,borderColor);
+    r.DrawRectangleRoundedLines(buttonData, 0.3, 10, 5,borderColor);
 
     r.EndDrawing();
 }
