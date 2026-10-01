@@ -15,7 +15,7 @@ const recColor = {
     r : 114,
     g : 47,
     b : 55,
-    a : 127,
+    a : 255,
 };
 //sunlight color
 const borderColor = {
