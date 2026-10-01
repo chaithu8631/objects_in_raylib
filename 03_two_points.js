@@ -7,12 +7,12 @@ const window = {
     FPS : 60,
 };
 const leftPoint = {
-    x : 50,
+    x : 150,
     y : 100,
 }
 const rightPoint = {
     x : 250,
-    y : 100,
+    y : 200,
 }
 //sun set
 const leftColor = {
@@ -37,10 +37,10 @@ const lineColor = {
 };
 //aqua blue
 const bgColor = {
-    r : 255,
-    g : 100,
-    b : 100,
-    a : 100,
+    r : 30,
+    g : 30,
+    b : 30,
+    a : 10,
 };
 
 r.InitWindow(window.width,window.height,window.title);
