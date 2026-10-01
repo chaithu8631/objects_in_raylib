@@ -15,21 +15,21 @@ const recColor = {
     r : 114,
     g : 47,
     b : 55,
-    a : 255,
+    a : 127,
 };
 //sunlight color
 const borderColor = {
     r : 244,
     g : 233,
     b : 155,
-    a : 255,
+    a : 200,
 };
 //aqua blue color
 const bgColor = {
     r : 0,
     g : 200,
     b : 200,
-    a : 127,
+    a : 100,
 };
 
 r.InitWindow(window.width,window.height,window.title);
